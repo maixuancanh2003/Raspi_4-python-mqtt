@@ -1,0 +1,7 @@
+opcua
+thread6
+asyncio
+paho-mqtt
+python-snap7
+numpy
+pandas

@@ -1,0 +1,13 @@
+# Khi đã có tài khoản github
+git add .
+git commit -m ""
+git push -u origin master
+
+# Mới dùng github lần đầu
+new:
+git init
+git remote add origin https:......gitgit
+git add .
+git commit -m ""
+git branch -m master
+git push -u origin master

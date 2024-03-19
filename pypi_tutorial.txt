@@ -1,0 +1,16 @@
+* Chú ý: 
++ Đảm bảo xóa tất cả các file trong thư mục dist trước khi thực hiện các câu lệnh sau trong 
+cửa sổ terminal 
++ Chú ý thay đổi version trong file setup.py trước
++ Tạo file .pypirc tại thư mục admin ("C:\Users\ADMIN\.pypirc") để tự động đẩy code lên pypi bằng twine
+thông qua __token__ đã tạo mà không cần mật khẩu, tài khoản
+
+
+"""
+python setup.py sdist
+"""
+
+
+# Khi muốn cài đặt package một cách thủ công
++ Vào terminal và trỏ đến thư mục chứa file setup.py
++ Nhập: "pip install ."

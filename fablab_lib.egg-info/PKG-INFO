@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fablab-lib
+Version: 0.2.6
+Summary: A package for communicating with PLC via industrial protocols such as OPC UA, Modbus, etc.         and logging data to a CSV file.
+Home-page: https://github.com/78-quangSky/MyPackage
+Author: FabLab Innovation
+Author-email: thien.dangquang.sistrain@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# fablab_lib
+
+## Purpose
+
+fablab_lib is a package designed to facilitate communication with Programmable Logic Controllers (PLCs) through industrial protocols.
+
+## Features
+
+- Enables seamless interaction with PLCs.
+- Provides an interface for sending and receiving data.
+- Supports various industrial protocols for communication.
+
+## Installation
+
+You can install fablab_lib via pip:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+
+To install the 'fablab_lib' package, you can use the following command:
+```pip install fablab_lib```
+
+## Note
+
+To install this lib in Raspberry Pi (Python >= 3.7), you need install following libs before:
+
+```sudo apt-get install python3-pandas```
+
+```sudo apt-get install python3-numpy```
